@@ -1,12 +1,15 @@
 .catalog:
   name: "dap"
-  version: "0.0.1"
+  version: "0.1-Poliwag"
   description: "Data analytics platform"
   uuid: dap-0
   questions:
     - variable: "ZOOKEEPER_QUORUM"
-      label: "How are you today"
+      label: "How are you today?"
       description: "Just a question."
-      type: "string"
-      default: "0 2 * * *"
-      required: true  
+      type: "enum"
+      options:
+        - "Very good. Thanks."
+        - "Perfect!"
+      default: "I feel good unless you change me ..."
+      required: true
