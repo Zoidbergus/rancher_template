@@ -19,12 +19,6 @@
       type: "string"
       default: ""
       required: false
-    - variable: "LINK_SERVICE"
-      label: "Bonus service:"
-      description: "Lists all the services of the environment."
-      type: "service"
-      default: ""
-      required: false
     - variable: "PICTURE"
       label: "May I take your picture?"
       description: "Cheese."
