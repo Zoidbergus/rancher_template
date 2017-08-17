@@ -1,8 +1,6 @@
 name: DAP platform
 description: |
   Best. Platform. Ever.
-version: 0
-category: Big Data
-maintainer: Zoidbergus <noreply@konicaminolta.cz>
-license: none
-projectURL: https://github.com/Zoidbergus/rancher_template
+version: v0.0.1-dap
+category: Agile
+
