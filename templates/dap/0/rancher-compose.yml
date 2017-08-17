@@ -19,9 +19,3 @@
       type: "string"
       default: ""
       required: false
-    - variable: "PICTURE"
-      label: "May I take your picture?"
-      description: "Cheese."
-      type: "boolean"
-      default: "true"
-      required: true
