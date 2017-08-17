@@ -1,17 +1,5 @@
 .catalog:
-  name: "DAP platform"
-  version: "v0.0.1"
-  description: "Template as it is"
-  minimum_rancher_version: 1.2.0
-  questions: 
-    -variable: "MOOD"
-     label: "How are you ?"
-     description: "Reply honestly."
-     type: "enum"
-     options:
-       - "Good"
-       - "Very good."
-    -variable: "can"
-     label: "Can we do more questions ?"
-     description: "Of course. Write what you want, I'm a question, not a police officer."
-     type: "string"
+  name: "solr"
+  version: "6.4.1"
+  description: "Solr search platform"
+  uuid: dap-0
