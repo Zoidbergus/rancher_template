@@ -11,7 +11,7 @@
       options:
         - "Very good. Thanks."
         - "Perfect!"
-      default: "I feel good unless you change me ..."
+      default: "I feel good ..."
       required: true
     - variable: "DEFAULT_KAFKA_TOPIC"
       label: "Default Kafka Topic:"
