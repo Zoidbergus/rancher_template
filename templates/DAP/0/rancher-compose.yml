@@ -1,19 +1,18 @@
-version: '2'
-catalog:
-  name: dappito
-  version: 0
-  description: Template as it is
+.catalog:
+  name: "DAP platform"
+  version: "v0.0.1-dap"
+  description: "Template as it is"
   minimum_rancher_version: 1.6.0
   maximum_rancher_version: 1.7.0
   upgrade_from: 0
   questions: 
-    -variable: mood
-     label: How are you ?
-     description: |Reply honestly.
-     type: enum
+    -variable: "mood"
+     label: "How are you ?"
+     description: "Reply honestly."
+     type: "enum"
      options:
-       - Good
-       - Very good.
-    -variable: can
-     label: Can we do more questions ?
-description: |Of course. Write what you want, I'm a question, not a police officer.
+       - "Good"
+       - "Very good."
+    -variable: "can"
+     label: "Can we do more questions ?"
+     description: "Of course. Write what you want, I'm a question, not a police officer."
