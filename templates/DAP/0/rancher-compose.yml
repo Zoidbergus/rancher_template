@@ -1,12 +1,10 @@
 .catalog:
   name: "DAP platform"
-  version: "v0.0.1-dap"
+  version: "v0.0.1"
   description: "Template as it is"
-  minimum_rancher_version: 1.6.0
-  maximum_rancher_version: 1.7.0
-  upgrade_from: 0
+  minimum_rancher_version: 1.2.0
   questions: 
-    -variable: "mood"
+    -variable: "MOOD"
      label: "How are you ?"
      description: "Reply honestly."
      type: "enum"
@@ -16,3 +14,4 @@
     -variable: "can"
      label: "Can we do more questions ?"
      description: "Of course. Write what you want, I'm a question, not a police officer."
+     type: "string"
