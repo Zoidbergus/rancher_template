@@ -1,5 +1,12 @@
 .catalog:
-  name: "solr"
-  version: "6.4.1"
-  description: "Solr search platform"
+  name: "dap"
+  version: "0.0.1"
+  description: "Data analytics platform"
   uuid: dap-0
+  questions:
+    - variable: "ZOOKEEPER_QUORUM"
+      label: "How are you today"
+      description: "Just a question."
+      type: "string"
+      default: "0 2 * * *"
+      required: true  
