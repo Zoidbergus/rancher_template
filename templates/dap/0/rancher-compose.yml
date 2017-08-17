@@ -4,12 +4,30 @@
   description: "Data analytics platform"
   uuid: dap-0
   questions:
-    - variable: "ZOOKEEPER_QUORUM"
+    - variable: "MOOD"
       label: "How are you today?"
-      description: "Just a question."
+      description: "Please describe your current mood."
       type: "enum"
       options:
         - "Very good. Thanks."
         - "Perfect!"
       default: "I feel good unless you change me ..."
+      required: true
+    - variable: "DEFAULT_KAFKA_TOPIC"
+      label: "Default Kafka Topic:"
+      description: "Specify default Kafka topic, if left blank, no topic will be created."
+      type: "string"
+      default: ""
+      required: false
+    - variable: "LINK_SERVICE"
+      label: "Bonus service:"
+      description: "Lists all the services of the environment."
+      type: "service"
+      default: ""
+      required: false
+    - variable: "PICTURE"
+      label: "May I take your picture?"
+      description: "Cheese."
+      type: "boolean"
+      default: "true"
       required: true
