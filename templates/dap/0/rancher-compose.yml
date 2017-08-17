@@ -13,9 +13,9 @@
         - "Perfect!"
       default: "I feel good ..."
       required: true
-    - variable: "DEFAULT_KAFKA_TOPIC"
-      label: "Default Kafka Topic:"
-      description: "Specify default Kafka topic, if left blank, no topic will be created."
+    - variable: "CONPLICITY_REMOVE_OLDER_THAN"
+      label: "Remove older than"
+      description: "Delete all backup sets older than the given time."
       type: "string"
-      default: ""
+      default: "30D"
       required: false
