@@ -1,5 +1,5 @@
-name: Solr
+name: DAP platform
 description: |
-  Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene.
-version: 6.4.1
+  DAP is the popular, blazing-fast, data analytics platform.
+version: 0.0.1
 category: Analytics
