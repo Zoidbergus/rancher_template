@@ -6,3 +6,7 @@ dap:
     - /grafana/plugins:/var/lib/grafana/plugins
   ports:
     - "3000:3000"
+  environment:
+    USER_MOOD: ${MOOD}
+    CONF_SERVERS: ${SERVERS_COUNT}
+    THE_COFFE: ${WANT_COFFE}
