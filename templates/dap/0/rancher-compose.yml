@@ -19,7 +19,7 @@
       type: "int"
       default: "3"
       required: true
-    - variable: "SERVERS_LIGHT"
+    - variable: "WANT_COFFE"
       label: "Make a coffe during the deployment:"
       description: "Make or make not, there is no try."
       type: "boolean"
