@@ -13,9 +13,15 @@
         - "Perfect!"
       default: "I feel good ..."
       required: true
-    - variable: "CONPLICITY_REMOVE_OLDER_THAN"
-      label: "Remove older than"
-      description: "Delete all backup sets older than the given time."
-      type: "string"
-      default: "30D"
+    - variable: "SERVERS_COUNT"
+      label: "Number of servers"
+      description: "Please enter the number of servers to be configured. Recommended: 3."
+      type: "int"
+      default: "3"
+      required: true
+    - variable: "SERVERS_LIGHT"
+      label: "Make a coffe during the deployment:"
+      description: "Make or make not, there is no try."
+      type: "boolean"
+      default: "false"
       required: false
